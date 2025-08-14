@@ -8,6 +8,8 @@ const Footer: React.FC = () => {
     { icon: Github, href: 'https://github.com/aviefriann', label: 'GitHub' },
     { icon: Linkedin, href: 'https://linkedin.com/in/aviefrian', label: 'LinkedIn' },
     { icon: Mail, href: 'mailto:aviefriann@gmail.com', label: 'Email' },
+    { icon: Phone, href: 'https://wa.link/0jfezk', label: 'Phone' },
+
   ];
 
   const quickLinks = [

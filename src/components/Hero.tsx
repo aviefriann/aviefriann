@@ -1,5 +1,5 @@
 import React from "react";
-import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
+import { ChevronDown, Facebook, Github, Linkedin, ListChecks, Mail, Phone, PhoneCall } from "lucide-react";
 import photoAvief from "../assets/images/photo-avief.jpg";
 
 const Hero: React.FC = () => {
@@ -81,6 +81,14 @@ const Hero: React.FC = () => {
                 className="text-gray-400 hover:text-orange-400 transition-colors duration-200"
               >
                 <Mail size={24} />
+              </a>
+              <a
+                href="https://wa.link/0jfezk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-orange-400 transition-colors duration-200"
+              >
+                <PhoneCall size={24} />
               </a>
             </div>
           </div>
